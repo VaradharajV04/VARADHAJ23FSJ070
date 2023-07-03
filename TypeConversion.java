@@ -1,11 +1,14 @@
 package mypack;
-
+//GOOD JOB
 import java.util.Scanner;
 
 public class TypeConversion {
+	/**
+	* always provide a javadoc comment on every method and class
+	*/
 	public static void main(String[] args) {
 		
-		System.out.println("Enter An Integear Number....");
+		System.out.println("Enter  A number....");
 		
 		try(Scanner sc = new Scanner (System.in)) {
 			int i = sc.nextInt();
